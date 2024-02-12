@@ -1,0 +1,23 @@
+.edit-form {
+    margin-bottom: 0.9rem;
+    height: 40px;
+    .edit-input {
+        width: 65%;
+        border: none;
+        outline: none;
+        border-radius: 5px;
+        font-size: 0.6em;
+        padding: 0 10px;
+        color: #46529D;
+    }
+    .save-button {
+        width: 30%;
+        background-color: rgb(36, 173, 36);
+        color: #fff;
+        font-size: 0.6em;
+        &:hover {
+            background-color: rgb(86, 208, 86);
+            letter-spacing: 4px;
+        }
+    }
+}
